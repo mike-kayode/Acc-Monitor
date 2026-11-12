@@ -1,0 +1,14 @@
+{
+  "name": "nairatrader/account-pool-monitor",
+  "description": "NairaTrader MT5 Account Pool Monitor",
+  "type": "project",
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "NAPM\\": "app/",
+      "NAPM\\App\\Services\\": "app/Services/"
+    }
+  }
+}

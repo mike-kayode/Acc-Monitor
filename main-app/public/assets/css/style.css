@@ -1,0 +1,76 @@
+/* NairaTrader Account Pool Monitor - Custom Styles */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border-radius: 0.5rem;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    font-weight: 600;
+}
+
+.qr-container img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background: white;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+.stat-card {
+    transition: transform 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-2px);
+}
+
+.alert {
+    border: none;
+}
+
+/* Severity indicators */
+.severity-critical { color: #dc3545; font-weight: 600; }
+.severity-warning { color: #ffc107; font-weight: 600; }
+.severity-emergency { color: #dc3545; font-weight: 700; }
+.severity-info { color: #0dcaf0; font-weight: 600; }
+
+/* Connection status */
+.status-connected { color: #198754; }
+.status-disconnected { color: #dc3545; }
+.status-connecting { color: #ffc107; }
+
+/* Responsive table */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Loader */
+.loading-spinner {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
